@@ -2,7 +2,9 @@
 
 import os
 import requests
-from dotenv import load_dotenv
+from dot
+
+import load_dotenv
 from requests.utils import requote_uri
 from pyrogram import Client, filters
 from pyrogram.types import *
@@ -14,9 +16,9 @@ API = "https://api.abirhasan.wtf/google?query="
 
 Bot = Client(
     "Google-Search-Bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token="5338812050:AAE2f5v9ZPeS-dLwy5BHoSf93GiGGuRImuw",
+    api_id="17983098",
+    api_hash="ee28199396e0925f1f44d945ac174f64"
 )
 
 
