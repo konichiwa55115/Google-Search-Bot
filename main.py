@@ -1,9 +1,8 @@
 # Author: Fayas (https://github.com/FayasNoushad) (@FayasNoushad)
 
 import os
-import requests
-from dotenv
-import load_dotenv
+import requests 
+from dotenv import load_dotenv
 from requests.utils import requote_uri
 from pyrogram import Client, filters
 from pyrogram.types import *
