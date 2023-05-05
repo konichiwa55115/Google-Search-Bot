@@ -14,7 +14,7 @@ API = "https://api.abirhasan.wtf/google?query="
 
 Bot = Client(
     "Google-Search-Bot",
-    bot_token="5338812050:AAE2f5v9ZPeS-dLwy5BHoSf93GiGGuRImuw",
+    bot_token="6032076608:AAG4I-T-zlITKKPwninOyBZeMkhzdBG6Wao",
     api_id="17983098",
     api_hash="ee28199396e0925f1f44d945ac174f64"
 )
